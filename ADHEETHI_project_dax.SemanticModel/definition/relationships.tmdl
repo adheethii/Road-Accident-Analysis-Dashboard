@@ -1,0 +1,14 @@
+relationship 6ec7cd38-70c9-4c51-87d7-92c224605e86
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Data.Time
+	toColumn: LocalDateTable_47fd7daa-9cae-443b-8a2c-fcaa05bd5344.Date
+
+relationship 45fe831c-4c9a-4c66-8a65-ad93a38f4834
+	joinOnDateBehavior: datePartOnly
+	fromColumn: calender.Date
+	toColumn: LocalDateTable_f44cdc0b-0244-4116-9f8c-98db98e30525.Date
+
+relationship 1a9fbe27-5a53-5b9a-9b2e-c5297d8d18f6
+	fromColumn: Data.'Accident Date'
+	toColumn: calender.Date
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "ADHEETHI_project_dax"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f0a0b233-48ac-4b91-bd5e-c1bafd6c2885"
+  }
+}

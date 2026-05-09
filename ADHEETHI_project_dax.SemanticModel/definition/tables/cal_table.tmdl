@@ -1,0 +1,54 @@
+table cal_table
+	lineageTag: 61efa7d1-29f1-40a8-ad48-b88549ac50c8
+
+	measure 'CY casualties' = TOTALYTD(SUM(Data[Number_of_Casualties]),calender[Date])
+		formatString: 0
+		lineageTag: 114a5c45-4a5d-427e-bd6c-da1f6c4dd68b
+
+	measure 'py casualities' =
+			CALCULATE(
+			    SUM(Data[Number_of_Casualties]),SAMEPERIODLASTYEAR(calender[Date])
+			)
+		formatString: 0
+		lineageTag: 50c7e08b-a635-4196-9c14-319e6ff8de0c
+
+	measure 'yoy casualities' = ([CY casualties]-[py casualities])/[py casualities]
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: f29de4ec-f3c2-43da-aead-62264b03eb92
+
+	measure 'cy accidents count' =
+			TOTALYTD(
+			    COUNT(Data[Accident_Index]),calender[Date]
+			)
+		formatString: 0
+		lineageTag: 4932d5ce-f07a-470a-8c70-a4329254f28d
+
+	measure 'py accidents' =
+			CALCULATE(
+			    COUNT(Data[Accident_Index]),SAMEPERIODLASTYEAR(calender[Date])
+			    )
+		formatString: 0
+		lineageTag: 2c0bdf9b-f74f-4991-9a23-1b78f792ee4b
+
+	measure 'yoy accidents' = ([cy accidents count]-[py accidents])/[py accidents]
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 66ecb9fa-319b-49e3-ad79-555a08ea7966
+
+	column Column
+		isHidden
+		formatString: 0
+		lineageTag: 74d53dcb-57cd-4757-abcb-8005dc95b7e2
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition cal_table = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 64563be289f44aa28b0ef063c4185fe9
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

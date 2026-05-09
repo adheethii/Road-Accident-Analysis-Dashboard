@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.2.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU10",
+      "reportVersionAtImport": {
+        "visual": "1.8.95",
+        "report": "2.0.95",
+        "page": "1.3.95"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU10",
+          "path": "BaseThemes/CY24SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Background_For_Power_BI_Projec562531359070828.jpg",
+          "path": "Background_For_Power_BI_Projec562531359070828.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "Bike_30014830610484467543.png",
+          "path": "Bike_30014830610484467543.png",
+          "type": "Image"
+        },
+        {
+          "name": "Bus9404951034075505.png",
+          "path": "Bus9404951034075505.png",
+          "type": "Image"
+        },
+        {
+          "name": "Car7851206099230259.png",
+          "path": "Car7851206099230259.png",
+          "type": "Image"
+        },
+        {
+          "name": "Other7404616113148907.png",
+          "path": "Other7404616113148907.png",
+          "type": "Image"
+        },
+        {
+          "name": "tractro_28810856800494669.png",
+          "path": "tractro_28810856800494669.png",
+          "type": "Image"
+        },
+        {
+          "name": "Van37049037576177246.png",
+          "path": "Van37049037576177246.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

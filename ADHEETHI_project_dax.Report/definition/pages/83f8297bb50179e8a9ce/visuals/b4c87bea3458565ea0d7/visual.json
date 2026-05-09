@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "b4c87bea3458565ea0d7",
+  "position": {
+    "x": 18.0327868852459,
+    "y": 18.0327868852459,
+    "z": 5000,
+    "height": 54.098360655737707,
+    "width": 711.47540983606564,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "ROAD ACCIDENT ANALYSIS",
+                    "textStyle": {
+                      "fontFamily": "DIN",
+                      "fontSize": "32pt",
+                      "color": "#d5c88f"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
