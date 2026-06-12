@@ -1,16 +1,22 @@
-# 🚦 Road Accident Analysis Dashboard
+# 🚦Road Accident Analysis Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![powerbi](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) 
+![dax](https://img.shields.io/badge/DAX-0078D4?style=flat&logo=microsoft&logoColor=white) 
+![Status](https://img.shields.io/badge/STATUS-COMPLETED-brightgreen?style=flat)
 
 An interactive Power BI dashboard analyzing road accident data across the UK, providing insights into casualty trends, vehicle types, road conditions, and geographic hotspots for data-driven safety decision-making.
 
 ---
 
-## 📊 Dashboard Preview
+## 📊 Dashboard at a Glance
 
 > *Open `ADHEETHI_project_dax.pbip` in Power BI Desktop to view the full interactive dashboard.*
+
+<p align="center">
+  <img src="Road%20accident%20analysis%20.png"
+       alt="Dashboard Snapshot"
+       width="650"/>
+</p>
 
 ---
 
@@ -119,7 +125,7 @@ YoY % Change = ([CY Casualties] - [PY Casualties]) / [PY Casualties]
 ## 👩‍💻 Author
 
 **Adheethi**  
-Business Analyst | Power BI Developer  
+Aspiring Data Scientist | Power BI Developer  
 - Designed interactive dashboards for stakeholder reporting
 - Developed KPI documentation and data source mapping
 - Applied BA deliverable standards for client-facing reporting
