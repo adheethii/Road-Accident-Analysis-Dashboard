@@ -91,7 +91,7 @@ ADHEETHI_project_dax/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/ADHEETHI_project_dax.git
+   git clone https://github.com/adheethii/ADHEETHI_project_dax.git
    ```
 
 2. **Open in Power BI Desktop**
